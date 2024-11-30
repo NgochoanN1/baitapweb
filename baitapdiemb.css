@@ -1,0 +1,225 @@
+#wrapper {
+    background-color: azure;
+    
+}
+
+#wr-content {
+
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+#content-1 {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 30px;
+    max-width: 300px;
+}
+
+#content-2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+
+.content-2-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.dendi {
+    font-family: 'Times New Roman', Times, serif;
+
+    padding-left: 10px;
+}
+
+.place {
+    min-height: 30px;
+    min-width: 150px;
+}
+
+.date {
+    min-height: 30px;
+    min-width: 150px;
+
+}
+
+#header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 38, 78);
+    min-height: 100px;
+}
+
+.wr-header {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+   
+}
+
+#hd-logo {
+    display: block;
+}
+
+#nav-account {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 15px;
+    padding: 0 15px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #a8ac9b;
+    height: 70px;
+   
+    
+    font-size: 15px;
+   
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+
+
+}
+#nav-account a{
+  
+    text-align: center;
+    letter-spacing: normal;
+    color: black;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#nav-account a:link {
+
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#nav-account a:hover {
+    color: black;
+
+    background-color: #a8ac9b;
+    transition: all 0.3s;
+}
+
+#hd-hotline {
+    margin-right: 50px;
+    color: white;
+}
+
+.hotline {
+    color: yellow;
+}
+.logo-humg{
+  width: 10px;
+  height: 10px;  
+}
+.sidebar_1 {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+.sidebar-img {
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 50%;
+
+}
+
+.top {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .sidebar_1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+.partner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+
+
+.sidebar_item {
+    color: blue;
+}
+
+
+
+
+
+
+li {
+    list-style-type: none;
+
+}
+
+#footer {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: rgb(0, 38, 78);
+
+
+}
+
+.footer_1 {
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: left;
+
+}
+
+.footer_1_1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer_col {
+    
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.footer_2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+
+
+}

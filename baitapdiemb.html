@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="baitapdiemb.css">
+    <title>Vé máy bay</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div class="wr-header">
+                     <div id="hd-logo">
+                    <img src="image/Logo.png" alt="">
+                </div>
+                <div id="hd-hotline">
+                    <span class="hotline">Hotline</span>
+                    <p><b>0822120302</b></p>
+                    <p><b>0383912302</b></p>
+                </div>  </div>
+                 
+                </div>
+            
+        </div>
+        <nav>
+            <div id="nav-account">
+                <a class="active" href="#"><i class="fa fa-home"></i></a>
+                <a class="envelope" href="#"><i class="fa fa-envelope"></i></a>
+                <a class="globe" href="#"><i class="fa fa-globe"></i></a>
+                <a class="search" href="#"><i class="fa fa-search"></i></a>
+            </div>
+        </nav>
+        <div id="wr-content">
+            <div id="content">
+                <div id="content-1">
+                    <img src="image/maybay.jfif" alt="vemaybay.vn" height="50px">
+                    Vé máy bay
+                </div>
+                <div >
+                <form id="content-2" action="booking.php" method="post">
+                    <div>
+
+                        <ul>
+                            <li value="1">
+                                <input type="radio" name="trip_type" value="one_way">
+                                Một chiều
+
+                            </li>
+                            <li value="2">
+
+                                <input type="radio" name="trip_type" value="round_trip">
+                                Khứ hồi
+                            </li>
+                            
+
+                        </ul>
+
+
+                        <input type="submit" name="submit" value="Tìm kiếm chuyến bay">
+
+                    </div>
+                    <div class="content-2-2">
+                        <div>
+                            <label for="destination">Điểm Đến:</label>
+                            <select class="place" name="destination" placehoder="Điểm đến của bạn">
+                                <option class="dendi" value="HaNoi">HÀ NỘI</option>
+                                <option class="dendi" value="HaTinh">HÀ TĨNH</option>
+                                <option class="dendi" value="SaiGon">SÀI GÒN</option>
+                                <option class="dendi" value="DaNang">ĐÀ NẴNG</option>
+                            </select><br>
+
+                            <label for="departure">Điểm Đi:</label>
+                            <select class="place" name="departure" placeholder="Điểm đi của bạn">
+                                <option class="dendi" value="HaNoi">HÀ NỘI</option>
+                                <option class="dendi" value="SaiGon">SÀI GÒN</option>
+                                <option class="dendi" value="HaTinh">HÀ TĨNH</option>
+                                <option class="dendi" value="DaNang">ĐÀ NẴNG</option>
+                            </select><br>
+                        </div>
+                        <div>
+                            <label for="departure_date">Ngày Đi:</label>
+                            <input class="date" name="departure_date" type="date">
+                            <label for="return_date">Ngày Về:</label>
+                            <input class="date" name="return_date" type="date">
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+            <div id="sidebar">
+                <h2><b>Địa điểm ưa thích</b></h2>
+                <ul class="sidebar_1">
+                    <li class=" sidebar_item"  >
+                      
+                            <div><img class="sidebar-img" src="image/tphcm.jfif"></div>
+                            <div class="top">Sài Gòn đi Hà Nội</div>
+                            <div >
+                                <p>1,000,000 <i>Đồng*</i></p>
+                            </div>
+
+                        
+                    </li>
+                    <li  class=" sidebar_item" >
+                        
+                            <div><img class="sidebar-img" src="image/hanoi.jfif"></div>
+                            <div class="top">Hà Nội đi Sài Gòn</div>
+                            <div >
+                                <p>1,000,000 <i>Đồng*</i></p>
+                            </div>
+                        
+                    </li>
+                    <li class=" sidebar_item"  >
+                        
+                            <div><img class="sidebar-img" src="image/danang.jfif"></div>
+                            <div class="top">Đà Nẵng đi Hà Nội</div>
+                            <div >
+                                <p>1,000,000 <i>Đồng*</i></p>
+                            </div>
+                        
+                    </li>
+                    <li  class=" sidebar_item" >
+                        
+                            <div><img class="sidebar-img" src="image/ha-tinh.jfif"></div>
+                            <div class="top">Hà Tĩnh đi Hà Nội</div>
+                            <div>
+                                <p>1,000,000 <i>Đồng*</i></p>
+                            </div>
+                        
+                    </li>
+                    <li  class=" sidebar_item" >
+                        
+                            <div><img class="sidebar-img" src="image/vinh.jfif"></div>
+                            <div class="top">Vinh đi Sài Gòn</div>
+                            <div>
+                                <p>1,000,000 <i>Đồng*</i></p>
+                            </div>
+                        
+                    </li>
+                    <li class=" sidebar_item"  >
+                        
+                            <div><img class="sidebar-img" src="image/hà nội1.jfif"></div>
+                            <div class="top">Hà Nội đi Hà Tĩnh</div>
+                            <div>
+                                <p>1,000,000 <i>Đồng*</i></p>
+                            </div>
+                        
+                    </li>
+                    <li class=" sidebar_item"  >
+                        
+                            <div><img class="sidebar-img" src="image/đà nẵng 2.jfif"></div>
+                            <div class="top">Hà Tĩnh đi Đà Nẵng</div>
+                            <div >
+                                <p>1,000,000 <i>Đồng*</i></p>
+                            </div>
+                        
+                    </li>
+                    <li class=" sidebar_item"  >
+                        
+                            <div><img class="sidebar-img" src="image/sài gòn.jfif"></div>
+                            <div class="top">Đà Nẵng đi Sài Gòn</div>
+                            <div >
+                                <p>1,000,000 <i>Đồng*</i></p>
+                            </div>
+                        
+                    </li>
+
+                </ul>
+
+
+            </div>
+            <div class="sidebar_partner">
+                <p><b>Aviation Partner</b></p>
+                <div class="partner">
+
+                    <div><a href="http://"><img class="airway" src="image/bamboo.png" alt=""></a></div>
+                    <div><a href="http://"><img class="airway" src="image/vietjet.png" alt=""></a></div>
+                    <div><a href="http://"><img class="airway" src="image/VietnamAirlines.jpg" alt=""></a></div>
+                </div>
+                <p><b>Holtel Partners</b></p>
+                <div class="partner">
+
+                    <div><a href="http://"><img src="image/MuongThanh.png" alt=""></a></div>
+                    <div><a href="http://"><img src="image/Vinpearl.png" alt=""></a></div>
+
+                </div>
+                <p><b>Payment Partner</b></p>
+                <div class="partner">
+                    <div><a href="http://"><img src="image/visa.png" alt=""></a></div>
+                    <div><a href="http://"><img src="image/Payoo.png" alt=""></a></div>
+                    <div><a href="http://"><img src="image/master-card.png" alt=""></a></div>
+                </div>
+
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footer_1">
+                <div class="footer_1_1">
+                    <div class="footer_col">
+                        <span style="color:#ffa300 ;">
+                            <p style="font-size: 20px;">Thông tin thêm</p>
+                        </span>
+                        <a href="http://">Điều khoản sử dụng</a><br>
+                        <a href="http://">Chính sách bảo mật</a><br>
+                        <a href="http://">Hướng dẫn đặt vé</a><br>
+                        <a href="http://">Hướng dẫn thanh toán</a>
+                    </div>
+                    <div class="footer_col">
+                        <span style="color:#ffa300 ;">
+                            <p style="font-size: 20px;">Về chúng tôi</p>
+                        </span>
+                        <a href="http://">Giới thiệu</a><br>
+                        <a href="http://">Ý kiến khách hàng</a><br>
+                        <a href="http://">Giải thưởng</a><br>
+                        <a href="http://">Dội ngũ nhân sự</a>
+                    </div>
+                    <div class="footer_col">
+                        <span style="color:#ffa300 ;">
+                            <p style="font-size: 20px;">Trụ sở</p>
+                        </span>
+                        <a href="http://">Văn phòng chính:Hà Nội</a><br>
+                        <a href="http://">Chi nhánh 1: Hà Tĩnh</a><br>
+                        <a href="http://">Chi nhánh 2: Đà Nẵng</a><br>
+                        <a href="http://">Chi nhánh 3: Sài Gòn</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer_2">
+                <div>
+                    <a href="#"><img src="image/Logo.png" alt="Vemaybay.vn"></a>
+                </div>
+                <div>
+                    <span style="color: white;">Trang web được thiết kế bởi Đặng Ngọc Hoàn</span>
+                </div>
+                <div>
+                    <a href="https://moit.gov.vn/"><img src="image/bocongthuong.png" alt=""></a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+</body>
+
+</html>
